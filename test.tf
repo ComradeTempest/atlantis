@@ -1,6 +1,6 @@
 resource "yandex_vpc_network" "atlantis-network" {
   name = "atlantis-network"
-}
+} #
 resource "yandex_vpc_subnet" "atlantis-subnet1" {
   name           = "atlantis-subnet1"
   zone           = "ru-central1-a"
