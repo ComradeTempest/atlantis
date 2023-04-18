@@ -13,3 +13,4 @@ resource "yandex_vpc_subnet" "final-subnet2" {
   network_id     = yandex_vpc_network.final-network.id
   v4_cidr_blocks = ["192.168.110.0/24"]
 }
+#
